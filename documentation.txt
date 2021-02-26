@@ -1,0 +1,42 @@
+#credentials for database
+=============================
+user_name===>bansh15cs15@gmail.com
+password====>bans@143
+
+
+Diagram of file  structure
+=======================
+                                                                          webscrap(folder)
+                                                                             ||
+  ================================================================================================================================================================================
+                 ||                     ||                     ||                    ||                ||               ||               ||
+                 ||                     ||                     ||                    ||                ||               ||               ||
+                 ||                     ||                     ||                    ||                ||               ||               ||
+           spiders(folder)              __init__.py         items.py                middlewares.py    pipelines.py      query_data.py    settings.py
+           |->__init__.py(file)
+           |
+           |->web_scrap_code.py(file)
+
+
+
+
+Task-1
+#write code file
+================
+
+webscrap file ->   spiders file ->  web_scrap_code.py  file, this file have main code of application.
+
+
+webscrap file -> items.py file, have  fields .
+
+
+webscrap file> pipelines.py file, have  data base connection information.
+
+
+
+
+
+Task-2
+#query
+=======
+webscrap file->query_data.py file there have written scripts of task 2.
